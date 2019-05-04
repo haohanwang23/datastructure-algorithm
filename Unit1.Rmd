@@ -1,0 +1,43 @@
+---
+title: "How to solve problems"
+description: |
+  Summarize the learnings from unit 1 of the course
+author:
+  - name: haohan + fanli 
+    url: https://dyadxmachina.com
+    affiliation: Dyad x Machina
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: radix::radix_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# The first thing we should do to solve a problem like this one?
+
+* Make sure we understand the problem 
+
+
+
+## Understand a Computational Problem 
+
+1. Problem is defined by a set of possible inputs (set)
+2. Relationship between inputs and outputs 
+
+* Solution: 
+  + Input --> Procedure --> Output
+  
+![understand_problem](img/understand_problem.png)
+
+
+## What are the inputs?
+* Given your birthday and the current date, calculate your age in days
+
+  + Input: 2 dates 
+    + Second data must not be before first date --> **Defensive Programming**
+    
+  + How are inputs represented 
+    + 
+    
