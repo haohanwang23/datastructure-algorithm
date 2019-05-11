@@ -67,6 +67,20 @@ When peoploe refer to the rate of an algorithm, they will sometimes instead use 
 ![O(1)](img/efficiency/o1_example.png)
 
 
+# Space Complexicity 
+
+* When we refer to *space complexity*, we are talking about how efficient our algorithm is in terms of memory usage. 
+
+This comes down to the datatypes of the variables we are using and their cllocated space requirements. 
+
+In Pyhon, it's less clear how to do this to the underlying data structures using more memory for house keeping functions. 
+
+![space_complexity](img/efficiency/space_complexity.png)
+
+
+
+
+
 
 
 
