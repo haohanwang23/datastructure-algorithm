@@ -1,0 +1,74 @@
+---
+title: "Efficiency"
+description: |
+  Summarize the learnings of efficiency lecture
+author:
+  - name: haohan + fanli 
+    url: https://dyadxmachina.com
+    affiliation: Dyad x Machina
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: radix::radix_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Space and Time 
+* When we refre to the efficiency of a program, we are not just thinking about its speed: 
+  + time 
+  + space
+  
+# Algorithms
+
+* An algorithm is essentially a series of steps for solving a problem. Usually, an algorithm takes some kind of input and then produces the desired output.
+
+![for_loop](img/efficiency/for_loop.png)
+
+![order](img/efficiency/order.png)
+
+
+* As the input to an algorithm increases, the time required to run the algorithm may also increase - and different algorithms may increase at different rates.
+
+# Order
+When peoploe refer to the rate of an algorithm, they will sometimes instead use the term *order*,
+
+  + The rate of increase of an algorithm is also refered to as the order of the algorithm 
+  
+  + Big O Notation: O in the name refers to the order of the rate of increase.
+  
+  
+  
+# Efficiency Practice
+![O(1)](img/efficiency/o1.png)
+
+
+![O(n**2)](img/efficiency/on**2.png)
+
+
+![O(1)](img/efficiency/o1.png)
+
+
+![O(simple)](img/efficiency/o.png)
+
+![O(plot)](img/efficiency/plot.png)
+![O(on2)](img/efficiency/on2_example.png)
+![O(nlog)](img/efficiency/onlogn_example.png)
+
+![O(1)](img/efficiency/on_example.png)
+
+
+
+
+
+![O(1)](img/efficiency/ologn_example.png)
+
+![O(1)](img/efficiency/o1_example.png)
+
+
+
+
+
+
+
